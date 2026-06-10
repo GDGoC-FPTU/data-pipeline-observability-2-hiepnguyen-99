@@ -84,7 +84,7 @@ def validate(data):
         else:
             error_count += 1
 
-    print(f"Validation complete. Valid: {len(valid_records)}, Errors: {error_count}")
+    print(f"{len(valid_records)} valid records, {error_count} invalid records")
     return valid_records
 
 
